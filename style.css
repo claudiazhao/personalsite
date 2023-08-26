@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+#about, #portfolio, #contact {
+    padding: 40px;
+}
+
+/* Portfolio project styling */
+.project {
+    text-align: center;
+    margin: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
